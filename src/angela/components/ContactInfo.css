@@ -1,0 +1,31 @@
+.book_number div p:nth-child(2){
+    font-size: 3vw;
+}
+@media screen and (max-width:830px) {
+    .book_number div p:nth-child(2){
+        font-size: 2rem;
+    }
+}
+
+.book_number span:first-child{
+    font-size: xx-large;
+}
+.book_number {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width:30rem;
+    width: 100vw;
+    background-color: #82b8f5;
+    color: #FFF;
+    padding: 1rem;
+    font-weight: 600;
+    font-size:1.5rem;
+}
+@media (min-width:250px) and (max-width:500px) {
+    .book_number {
+        flex-direction: column;
+        gap: 1rem;
+        width: 91%;
+    }
+}

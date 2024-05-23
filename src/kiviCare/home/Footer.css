@@ -1,0 +1,69 @@
+.footer_container{
+    background-color: #FFE7E9;
+}   
+
+.footer_bottom{
+    padding: .7rem;
+    text-align: center;
+    border-top: 1px solid #cdcdcd;
+}
+
+.footer1 span.ant-input-affix-wrapper.css-dev-only-do-not-override-17a39f8 {
+    padding: 0.8rem;
+    width: 80%;
+}
+:where(.css-dev-only-do-not-override-17a39f8).ant-input-affix-wrapper .ant-input-suffix .footerIcon svg{
+    background-color: #d45ba1;
+    color: #FFF ;
+    padding: 10px;   
+}
+.footer_top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1rem;
+}
+.footer3 span h4{
+    margin: .2rem;
+}
+.footer3 span p{
+    width: 5rem;
+}
+.footer3 span{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+.footer_icon{
+    color: #d45ba1;
+}
+.footer1{
+    width: 30%;
+}
+.footer2{
+    width: 20%
+}
+.footer3{
+    width: 25%
+}
+.footer4{
+    width: 25%
+}
+.footer_follow_icon, .footer_follow .footer_f{
+    color: #7b829c;
+    padding: .8rem;
+    border: 1px solid #7b829c;
+    border-radius: 50%;
+}
+.footer_follow .footer_f{
+    padding: .6rem 1.1rem;
+    font-weight:700;
+}
+.footer_follow{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}

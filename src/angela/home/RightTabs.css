@@ -1,0 +1,21 @@
+.right_tab_container{
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    width: 5rem;
+    align-items: end;
+}
+.right_tab_container .right_tab_icon:hover{
+    padding: 1rem 1.8rem 1rem 1rem;
+}
+.right_tab_container .right_tab_icon{
+    color: #ffffff;
+    background-color: #80b7f7;
+    font-size: x-large;
+    padding: 1rem;
+    cursor: pointer;
+}

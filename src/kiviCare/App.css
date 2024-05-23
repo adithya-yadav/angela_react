@@ -1,0 +1,35 @@
+.ant-divider.css-dev-only-do-not-override-17a39f8.ant-divider-horizontal::after {
+    background-color: #d45ba1;
+    border-block-start: 2px solid transparent;
+}
+
+.ant-divider.css-dev-only-do-not-override-17a39f8.ant-divider-horizontal::before {
+    border-block-start: 2px solid transparent;
+    background-color: #d45ba1;
+}
+
+.ant-divider.css-dev-only-do-not-override-17a39f8.ant-divider-horizontal {
+    border: none;
+    color: #6e7990;
+}
+
+.appoint_btn{
+    cursor: pointer;
+    background-color: #d45ba1;
+    color: #FFF;
+    display: inline-block;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: .0375em;
+    padding: 1em 2em;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    border: none;
+}
+
+body{
+    background-color:#fafafa;
+}
+

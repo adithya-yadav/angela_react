@@ -1,0 +1,38 @@
+.contact_info {
+    position: absolute;
+    bottom: -15rem;
+    z-index: 99;
+}
+
+.ab_offer_container {
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    top: -3rem;
+}
+
+.about_bottom {}
+
+
+@media (min-width:750px) and (min-width:950px) {
+    .contact_info {
+        top: 160%;
+    }
+}
+
+@media (min-width:500px) and (max-width:750px) {
+    .contact_info {
+        bottom: -8rem;
+    }
+}
+
+@media (min-width:250px) and (max-width:500px) {
+    .contact_info {
+        position: static;
+    }
+    .ab_offer_container {
+        width: 100vw;
+        position: static;
+        margin-bottom: 2rem;
+    }
+}

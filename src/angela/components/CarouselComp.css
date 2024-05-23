@@ -1,0 +1,43 @@
+.carousel_images {
+    width: 100vw;
+    max-width: 100rem;
+}
+
+.carousel_images img {
+    width: 100%;
+    /* transform: translate(50%, 50%);
+    transition: all 5s;  */
+}
+
+.carousel_images .carousel_content{
+    position: absolute;
+    color: #FFF;
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    font-weight: 600;
+    font-size: 6vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10rem;
+}
+
+.make_appointment{
+    padding: 1.5rem;
+    border-radius: 5rem;
+    font-weight: 600;
+    font-size:2vw;
+    border: none;
+    background-color: #82b8f5;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+@media (min-width:250px) and (max-width:500px) {
+    .carousel_images .carousel_content{
+        margin-top: 5rem;
+    }
+    .make_appointment{
+        padding: .5rem;
+    }
+}

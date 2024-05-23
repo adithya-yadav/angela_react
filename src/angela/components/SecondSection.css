@@ -1,0 +1,116 @@
+.second_section_container p:first-child {
+    font-size: 1.5rem;
+    color: #82b8f5;
+}
+
+.second_section_container p:nth-child(2) {
+    font-size: 4vw;
+    color: #000;
+    text-align: end;
+}
+
+.second_section_image {
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+
+.second_section_main_container {
+    display: flex;
+}
+
+.second_section_container {
+    width: 58.7%;
+    max-height: 45rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
+}
+
+.second_sec_right {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.sec_img_container {
+    border-radius: 50%;
+    height: 102px;
+    width: 102px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_img_container img {
+    width: 50%;
+    height: 50%;
+}
+
+.second_sec_right_even h3,
+.second_sec_right_odd h3 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.second_sec_right_even p,
+.second_sec_right_odd p {
+    text-align: center;
+    color: #7b829c;
+}
+
+.second_sec_right_even,
+.second_sec_right_odd {
+    padding: 3.4em 0.7em 4em;
+    height: 15rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.second_sec_right_odd {
+    background-color: #f1f7fd;
+}
+
+.second_sec_right_even {
+    background-color: #e4f2fd;
+    ;
+}
+
+
+.second_sec_content {
+    position: absolute;
+    margin-right: 10vw;
+    display: flex;
+    align-items: end;
+    gap: 2rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width:1279px) {
+    .second_section_main_container {
+        flex-direction: column;
+    }
+
+    .second_section_container {
+        width: 100%;
+    }
+    
+    .second_sec_right {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}

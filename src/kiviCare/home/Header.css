@@ -1,0 +1,125 @@
+:where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-item:hover::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item:hover::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu:hover::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu:hover::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-item-active::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-active::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-active::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-active::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-item-open::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-open::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-open::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-open::after{
+    border-bottom-color: #d45ba1;
+    border-bottom-width:3px ;
+}
+li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child :hover{
+    color: #d45ba1;
+}
+:where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-selected, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-selected{
+    color: #d45ba1;
+}
+:where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-selected::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected::after, :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-selected::after{
+    border-bottom-color: #d45ba1;
+    border-bottom-width:3px ;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+}
+
+.header_t_r {
+    display: flex;
+}
+
+.headers_container p {
+    height: 2rem;
+    margin: 0;
+}
+
+.headers_container {
+    display: flex;
+    background: #fff;
+    align-items: center;
+    width: 100%;
+    padding-inline: 0;
+    padding: 3rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+
+.headers_container img {
+    margin: 1rem;
+}
+
+.headers_container button {
+    background-color: #000;
+}
+
+.header_icon svg {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.header_icon_right svg {
+    margin-left: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
+
+.header_icon {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light.headers_menu.css-dev-only-do-not-override-17a39f8 {
+    width: 61%;
+    font-weight: 600;
+}
+
+
+.header_slider {
+    width: 33vw;
+    background-color: #fff;
+    height: 83vh;
+    position: fixed;
+    top: 4.3rem;
+    right: 0;
+    z-index: 111;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.header_slider h2 {
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+    margin-bottom: .5rem;
+}
+
+.header_sli_close svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.header_sli_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.slider_gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.slider_gallery img {
+    width: 6rem;
+    height: 4rem;
+}
+
+.slider_header {
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.line {
+    margin: 2rem 0 1rem 0;
+    border-bottom: 1px solid #cdcdcd;
+}

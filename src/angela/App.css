@@ -1,0 +1,24 @@
+p {
+    margin: 0;
+    
+}
+
+.ant-divider.css-dev-only-do-not-override-17a39f8.ant-divider-horizontal {
+    border: 1.5px solid #d6d6d6;
+    /* margin: 0 2rem 1rem 2rem; */
+    border-top: 0;
+}
+
+ul.slick-dots.slick-dots-bottom button {
+    background-color: #7b829c;
+}
+
+ul.slick-dots.slick-dots-bottom .slick-active button {
+    background-color: #82b8f5;
+}
+
+.ant-divider.css-dev-only-do-not-override-17a39f8.ant-divider-horizontal {
+    border: none;
+    color: #80b7f7;
+}
+

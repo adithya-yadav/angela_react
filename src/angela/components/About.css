@@ -1,0 +1,171 @@
+.about_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_container h1 {
+    font-size: 3rem;
+    width: 60%;
+    text-align: center;
+}
+
+.about_video {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6rem;
+}
+
+.about_video iframe {
+    width: 60%;
+    height: 21rem;
+}
+
+.about_video .about_cart h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.about_video .about_cart p {
+    text-align: center;
+    color: #7b829c;
+}
+
+.about_video .about_cart {
+    width: 30%;
+    height: 17.2rem;
+    background-color: #e4f2fd;
+    padding: 2rem;
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about_carosuel {}
+
+.about_bottom {
+    padding: 3rem 6rem;
+}
+
+.about_carosuel_div img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.about_carosuel_div h3 {
+    margin: 0;
+}
+
+.about_carosuel_div h4 {
+    margin: 0;
+    color: #7b829c;
+    text-align: center;
+}
+
+.about_carosuel_div p {
+    color: #80b7f7;
+    font-weight: 600;
+}
+
+.about_bottom ul.slick-dots.slick-dots-bottom {
+    display: none !important;
+}
+
+.about_carosuel_div {
+    height: 30rem;
+    background-color: #e4f2fd;
+    width: 35% !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.about_car_right {
+    height: 32rem;
+    background-color: #e4f2fd;
+    width: 55%;
+    position: relative;
+    bottom: 33rem;
+    left: 30rem;
+}
+
+.about_right_container {
+    display: flex;
+}
+.about_small_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    overflow-y:scroll;
+}
+.about_bottom {
+    height: 34rem;
+}
+.about_right_container img {
+    width: 80%;
+}
+
+.about_small_img img {
+    width: 40%;
+}
+
+@media screen and (max-width:1050px) {
+    .about_car_right {
+        width: 50%;
+    }
+}
+@media screen and (max-width:900px) {
+    .about_container h1 {
+        width: 100%;
+    }
+
+    .about_video iframe {
+        width: 80vw;
+    }
+
+    .about_video .about_cart {
+        width: 40vw;
+    }
+
+    .about_video {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .about_bottom {
+        height:70rem ;
+        padding: 0;
+        margin: 2rem;
+    }
+
+    .about_carosuel_div {
+        width: 80vw !important;
+    }
+
+    .about_car_right {
+        width: 96%;
+        position: static;
+    }
+}
+
+@media (min-width:250px) and (max-width:550px) {
+    .about_video .about_cart{
+        width: 65%;
+    }
+    .about_carosuel_div{
+        width: 80% !important;;
+    }
+}

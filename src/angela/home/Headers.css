@@ -1,0 +1,232 @@
+header.ant-layout-header.headers_container.css-dev-only-do-not-override-17a39f8 {
+    height: 8rem;
+    padding: 2rem 4rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    line-height: none;
+}
+
+.headers_container span.anticon.anticon-ellipsis svg {
+    font-size: 1.5rem;
+    rotate: 90deg;
+    background-color: #e4f2fd;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+
+.headers_container img {
+    max-height: 46px;
+}
+
+.headers_container ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light.headers_menu.css-dev-only-do-not-override-17a39f8 {
+    width: 60%;
+    padding-left: 10%;
+}
+
+.headers_container .headers_menu span.ant-menu-title-content {
+    font-size: x-large;
+    font-weight: 600;
+    color: #7b829c;
+}
+
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-horizontal {
+    border-bottom: transparent;
+}
+
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item-selected::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-selected::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu-selected::after {
+    border-bottom-color: transparent;
+}
+
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal>.ant-menu-item:hover::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item:hover::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu:hover::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu:hover::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal>.ant-menu-item-active::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item-active::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-active::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu-active::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal>.ant-menu-item-open::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item-open::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-open::after,
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu-open::after {
+    border-bottom-color: transparent;
+}
+
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu .ant-menu-item-selected span {
+    color: #80b7f7;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-menu-light .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu .ant-menu-item-selected {
+    background-color: transparent;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-menu-submenu-popup .ant-menu-vertical.ant-menu-sub:not([class*='-active']),
+ul#rc-menu-uuid-73705-2-rc-menu-more-popup {
+    color: #FFF;
+    border: none;
+    border-radius: 0%;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 1.5rem;
+    background-color: #232943;
+}
+
+.list_container img {
+    margin-left: 35vw;
+    margin-bottom: 2rem;
+}
+
+.list_container span {
+    color: #FFF;
+    border: none;
+    border-radius: 0%;
+    font-size: large;
+    font-weight: 600;
+    background-color: #232943;
+    line-height: 2.5rem;
+    margin-left: 35vw;
+    cursor: pointer;
+}
+
+.list_search {
+    margin-left: 30vw;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5rem;
+    max-height: 12vh;
+    height: 12vh;
+    max-width: 67%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span.anticon.anticon-search.search_list_icon {
+    background-color: transparent !important;
+    float: right;
+    margin: 1rem 1.5rem;
+}
+
+.list_input:focus {
+    outline: none;
+}
+
+.list_input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 90%;
+    color: #FFF;
+    font-size: large;
+    font-weight: 300;
+    padding: 2rem;
+}
+
+.headers_container :where(.css-dev-only-do-not-override-17a39f8).ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover,
+:where(.css-dev-only-do-not-override-17a39f8).ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover,
+.list_container .selected_header {
+    color: #80b7f7;
+}
+
+.headers_container .contact_us {
+    position: absolute;
+    right: 2vw;
+    font-size: 1.2em;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: #80b7f7;
+    padding: 1.15em 2.6em;
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.headers_container .headers_list {
+    visibility: hidden;
+    color: #80b7f7;
+    border: 3px solid #80b7f7;
+    font-size: large;
+    border-radius: 50%;
+    padding: .8rem;
+    cursor: pointer;
+}
+
+
+.list_container_btn {
+    color: #FFF;
+    position: absolute;
+    top: 1.2rem;
+    background: transparent;
+    right: 1.2rem;
+    border: none;
+    font-size: x-large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.list_container_btn:hover {
+    color: #80b7f7
+}
+
+.headers_container .list_container {
+    background-color: #242a43;
+    height: 91vh;
+    width: 100vw;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    animation: mymove .5s;
+    animation-timing-function: linear;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+@keyframes mymove {
+    from {
+        top: -500px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+@media screen and (max-width:816px) {
+    .headers_container ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light.headers_menu.css-dev-only-do-not-override-17a39f8 {
+        display: none;
+    }
+
+    .headers_container {
+        margin-bottom: 2.5rem;
+    }
+    .headers_container .contact_us {
+        display: none;
+    }
+
+    header.ant-layout-header.headers_container.css-dev-only-do-not-override-17a39f8 {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .headers_container .headers_list {
+        visibility: visible;
+    }
+}
